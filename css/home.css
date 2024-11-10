@@ -1,0 +1,227 @@
+.main{
+  background: black;
+  color: white;
+}
+
+.main-section{
+  display: flex;
+  background: black;
+  color: white;
+}
+.main-section h1{
+  font-family: var(--font-logo);
+  color: var(--font-color-secundary);
+  margin: 10px;
+}
+.main-section img{
+  width: 33%;
+  height: 350px;
+}
+
+.main-section-image{
+  color: var(--font-color-secundary);
+  font-size: 30px;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* DESTAQUE */
+.main-section-image-destaque {
+  justify-content: center;
+  background: var(--transparent-color);
+  padding: 35px;
+  margin-top: 15px;
+  border-radius: 15px;
+  height: 720px;
+  text-align: center;
+  width: 99%;
+}
+
+/* slide do DESTAQUE */
+.carousel {
+  margin-bottom: 20px;
+}
+.content{
+  height: 520px;
+  width: 935px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 180px;
+}
+@media (max-width: 1010px)
+{
+  .content{
+    width: 700px;
+  }
+}
+.navegacao{
+  position: absolute;
+  top: 95%;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+.barra{
+  width: 60px;
+  height: 12px;
+  border: 2px solid white;
+  margin: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .4s;
+}
+.barra:hover{
+  background-color: white;
+}
+input{
+  display: none;
+}
+.slides{
+  display: flex;
+  width: 500%;
+}
+.slide{
+  width: 20%;
+  transition: .6s;
+
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+  margin-bottom: -20px;
+}
+#slide1:checked ~ .s1{
+  margin-left: 0;
+}
+#slide2:checked ~ .s1{
+  margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+  margin-left: -40%;
+}
+#slide4:checked ~ .s1{
+  margin-left: -60%;
+}
+#slide5:checked ~ .s1{
+  margin-left: -80%;
+}
+/* .main-section-image-destaque .produto1{
+  color: var(--font-color-secundary);
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+  width: 700px;
+}
+.main-section-image-destaque .produto2{
+  color: var(--font-color-secundary);
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+  width: 700px;
+}
+.main-section-image-destaque .produto1:focus .produto2{
+  display: block;
+} */
+/* fim da pagina com destaques ao cliente */
+.main-section-image-destaque02{
+  height: 300px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.519);
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+}
+.main-section-image-destaque02 i{
+  color: var(--font-color-secundary);
+  font-size: larger;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.519);
+}
+.main-section-image-destaque02 i:hover{
+  color: var(--font-color-prymary);
+  
+}
+.main-section-image-destaque02 h3{
+  color: rgb(90, 255, 90);
+}
+.main-section-image-destaque02 .item-destaque02{
+  text-align: center;
+  margin: 8px;
+}
+.main-section-box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-section-box-camisa{
+  color: #BBE5AA;
+    background: black;
+    background-image: url(..//img/jogadora-de-futebol-com-bola.jpg);
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 1px 20px 15px black;
+}
+.main-section-box-camisa a{
+  display: flex;
+  align-items: center;
+}
+.main-section-box-camisa a:hover h2{
+  color: #89E565;
+  background-color: #031d1e52;
+}
+.main-section-box-camisa img{
+  width: 45px;
+  height: 45px;
+}
+.main-section-box-camisa h2{
+  width: 500px;
+  background-color: #0b343552;
+  border-radius: 5px;
+  padding: 5px;
+}
+.main-ajude-me{
+  text-align: center;
+  padding: 15px;
+}
+.main-ajude-me a{
+  color: #89E565;
+}
+.main-ajude-me a:hover{
+  color: #4cba20;
+}
+ #imagem01{
+  background-image: url("..//img/home-basquete.jpg");   
+}
+#imagem02{
+  background-image: url("..//img/home-volei01.jpg");
+}
+.main-section-image-destaque h1{
+  margin-top: 7px;
+  display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    background: linear-gradient(to right,#b6ff99,#94ff69,#61bcbd,#3e8687);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}

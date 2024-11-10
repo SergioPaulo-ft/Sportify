@@ -1,0 +1,48 @@
+/* conteudo principal */
+body{
+  background: var(--font-color-prymary);
+}
+.main{
+    width: 750px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    padding: 30px;
+}
+.main h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 8px;
+}
+.main h3{
+  color: white;
+  background: #2F5C5D;
+  padding: 10px;
+}
+.main a{
+  color:  var(--primary-color);
+}
+/* cabeçalho */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 60px;
+  }
+  .container{
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  ul{
+    list-style: none;
+  
+  }
+  .row{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  li{
+   text-decoration: none;
+  }
+  

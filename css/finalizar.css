@@ -1,0 +1,45 @@
+main{
+    min-height: 100vh;
+    padding: 30px;
+}
+main h1 {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(to right,#5da242,#5da242,#2f5c5d,#2f5c5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main h3{
+    color: rgb(0 54 0);
+}
+main button{
+    background: green;
+    display: block;
+    width: 100%;
+    color: white;
+    border: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+main button:hover{
+    cursor: pointer;
+    background: rgb(5, 71, 5);
+}
+main .metodo{
+    background: #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+main span{
+    color: #5da242;
+    font-size: 18px;
+}
+main span i{
+    color: #5da242;
+    font-size: 22px;
+}
+main span:hover{
+    cursor: pointer;
+}

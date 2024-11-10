@@ -1,0 +1,101 @@
+body{
+    background: #f8f8f8;;
+}
+main{
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+main h1{
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(to right,#5da242,#5da242,#2f5c5d,#2f5c5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content{
+    display: inline-flex;
+}
+aside{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+aside .box{
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background: #ddd;
+}
+aside .box header{
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+aside .box .info{
+    padding: 20px;
+}
+aside .box .info input{
+    margin-left: 8px;
+}
+aside .box .info input:focus{
+    outline: none;
+}
+aside .box .info div{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+aside .box footer{
+    padding: 15px 20px;
+    font-size: 18px;
+    background: #ccc;
+}
+aside button{
+    background: green;
+    display: block;
+    width: 100%;
+    color: white;
+    border: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+aside button:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+.compras{
+    text-align: center;
+}
+.compras .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    border-bottom: solid 1px;
+}
+.compras .item img{
+    max-width: 300px;
+    box-shadow: 0 0 4px #89E565;
+    margin: 15px;
+    background: white;
+}
+.compras .item span {
+    color: #2f5c5d;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: fangsong;
+}
+.compras .item .quantidade-preco{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.compras .item .quantidade-preco input{
+    width: 50px;
+    padding: 8px;
+    font-size: 18px;
+}
+.compras .item .quantidade-preco input:focus{
+    outline: none;
+}

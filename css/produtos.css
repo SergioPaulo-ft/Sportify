@@ -1,0 +1,126 @@
+body{
+    background: #f8f8f8;
+}
+section .container{
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+    }
+section .container h3{
+    font-size: 27px;
+    color: black;
+}    
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 15px;
+}
+.left-side .item {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px;
+    padding: 8px;
+    border-radius: 3.5px;
+    box-shadow: 0 0 10px #89E565;
+    border-radius: 6px;
+}
+.left-side .imagem{
+    max-width: 400px;
+}
+.left-side .imagem img{
+    width: 100%;
+}
+.right-side{
+    width: 100%;
+    font-size: 22px;
+}
+
+.right-side .stars i{
+    text-align: center;
+    justify-content: center;
+    padding: 15px 0;
+    color: #ffcd1d;
+    cursor: pointer;
+    margin-bottom: 22px;
+}
+.right-side .compartilhar-preco{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.right-side .compartilhar{
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 5px;
+    gap: 5px;
+}
+.right-side .compartilhar:hover{
+    border: solid 1px rgb(90, 255, 90);
+    background-color: rgba(214, 206, 206, 0.603);
+    cursor: pointer;
+}
+.right-side .compartilhar:hover  i{
+color: rgb(32, 180, 32);
+}
+.right-side .compartilhar i{
+    font-size: 32px;
+    color: rgb(90, 255, 90);
+}
+.right-side .tamanho{
+    padding: 15px 0;
+    border-top: 1px solid black;
+    margin: 15px 0; 
+}
+.right-side .tamanho h3{
+    margin-bottom: 18px;
+}
+
+.right-side .tamanho .bt{
+    font-size: 22px;
+    border: solid 1px black;
+    border-radius: 3.5px;
+    padding: 5px;
+}
+.right-side .tamanho .bt:hover{
+    cursor: pointer;
+    color: rgb(90, 255, 90);
+    background: rgb(34, 34, 36);
+}
+.right-side .favoritar{
+    display: flex;
+    font-size: 22px;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.right-side .favoritar i{
+    font-size: 32px;
+}
+.right-side .add-carrinho{
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 5px;
+    gap: 5px;
+}
+.right-side .add-carrinho i{
+    font-size: 32px;
+    color: rgb(90, 255, 90);
+}
+.right-side .add-carrinho:hover{
+    cursor: pointer;
+    color: rgb(90, 255, 90);
+    background: rgb(34, 34, 36);
+}

@@ -1,0 +1,21 @@
+/* conteudo principal */
+.main{
+  background-image: linear-gradient(140deg, var(--primary-color) 0%, var(--secundary-color) 50%, var(--tertiary-color) 75%);
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+ 
+}
+.main h1{
+  margin:25px;
+}
+.main textarea{
+  width: 60%;
+  height: 550px;
+  font-size: 15px;
+  font-family: var(--font-family-primary);
+  padding: 20px;
+  text-align: justify;
+}
